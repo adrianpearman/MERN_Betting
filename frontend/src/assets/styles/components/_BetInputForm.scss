@@ -1,0 +1,15 @@
+.betInputForm{
+    .form-group{
+        label{
+            font-size: $small;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: $dark-purple;
+        }
+    }
+    .input{
+        font-size: $small;
+        height: $large;
+        margin: $small 0 $large 0;
+    }
+}
