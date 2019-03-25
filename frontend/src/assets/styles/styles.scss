@@ -1,0 +1,9 @@
+// BASE COLORS AND STYLING
+@import './base/base';
+@import './base/settings';
+// COMPONENTS
+@import './components/BetInputForm';
+@import './components/IndvidualBet';
+@import './components/LoadingSpinner';
+@import './components/RenderBets';
+@import './components/ReusableStyling';

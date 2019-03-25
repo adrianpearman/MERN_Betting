@@ -1,0 +1,29 @@
+.oddsInfoContent{
+    width: 80%;
+    margin: $large 10%;
+    .infoContainer{
+        .infoContent{
+            text-align: center;
+        }
+    }
+}
+
+.renderBetsContainer{
+    margin: $xl-large;
+
+    .renderBets{
+        display: inline-block;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .currentBets{
+        text-align: center;
+    }
+
+    .renderBetsMessage{
+        text-align: center;
+        margin: 2rem 0;
+    }
+}
