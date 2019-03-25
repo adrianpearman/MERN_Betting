@@ -1,0 +1,15 @@
+{
+  "name": "bettingp_odds_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5"
+  },
+  "scripts": {
+    "dev-server": "cd backend; yarn run dev-server",
+    "dev-client": "cd frontend; yarn run start",
+    "dev-app": "concurrently \"yarn run dev-client\" \"yarn run dev-server\"  "
+  }
+}
